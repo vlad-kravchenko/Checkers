@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{86023508-13D0-45A5-A732-8BCFA30578FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerNET", "ServerNET\ServerNET.csproj", "{ECF63814-079D-43D5-8F04-002023B61DA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86023508-13D0-45A5-A732-8BCFA30578FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86023508-13D0-45A5-A732-8BCFA30578FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86023508-13D0-45A5-A732-8BCFA30578FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86023508-13D0-45A5-A732-8BCFA30578FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF63814-079D-43D5-8F04-002023B61DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF63814-079D-43D5-8F04-002023B61DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF63814-079D-43D5-8F04-002023B61DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF63814-079D-43D5-8F04-002023B61DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {808C5DF5-F6D0-440B-A88C-67BEA35D04B3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿<Window x:Class="Checkers.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Checkers"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Checkers" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button Name="Offline" FontSize="12" Grid.Row="0" Grid.Column="1" Margin="5" Click="Offline_Click">Offline</Button>
+        <TextBox Name="UserName" FontSize="12" Grid.Row="1" Grid.Column="0" Margin="5"></TextBox>
+        <Button Name="Connect" FontSize="12" Grid.Row="1" Grid.Column="1" Margin="5" Click="Connect_Click">Connect</Button>
+        <ListBox Name="UserList" FontSize="12" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" MouseDoubleClick="UserList_MouseDoubleClick"></ListBox>
+    </Grid>
+</Window>
